@@ -15,7 +15,7 @@
 
     
 <h3>3.2 Create a PHP variable named $title and assign it 
-        the value of "PHP is interesting."
+        the value of "PHP is interestin."
         Then, use this variable as the content within an <h4> (heading 4) element.
     </h3>
 
