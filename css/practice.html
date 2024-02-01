@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Define the keyframes for the movement */
+        @keyframes moveText {
+            0% {
+                transform: translateX(0); /* Initial position */
+            }
+            50% {
+                transform: translateX(200px); /* Midway position */
+            }
+            100% {
+                transform: translateX(0); /* Final position */
+            }
+        }
+
+        /* Apply the animation to the element */
+        moving-text {
+            width: 200px;
+            height: 100px;
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            line-height: 100px;
+            animation: moveText 4s linear infinite; /* 4s duration, linear timing, infinite loop */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HTML element with moving text -->
+    <div class="moving-text">Moving Text</div>
+
+</body>
+</html>

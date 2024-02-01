@@ -1,260 +1,29 @@
-<?php include ("header.php") ?>
-
-<!-- Navigation bar end  -->
-<!-- body code start -->
-  <div id="widerscreen-space">
-
-   <!-- landing page first row start  -->
-     <div class="row text-center img-reponsive " id="landing-page-bg-img">
-       <div ><img src="img/discount.png" class="img-fluid col-2  " id="discount-img" alt="discount image " ></div>
-       <div class="col-10 text-center" id="h1forimg" ><h1 > Great offer in Stores and online !</h1></div>
-       <div id="hello"><button ><h6>See our offers</h6></button></div>
-     </div>
-    <!-- landing page first row end  -->
-
-    <!-- second row of the body start  -->
-      <div class="row second-row">
-
-        <!-- first coloum flash sales -->
-        <div class="col-12 col-sm-6 col-md-6 col-lg-4  text-center">
-          <h1 id="heading-of-second-row">Flash Sales</h1>
-          <hr>
-          <img src="img/iphone15pro.png" id="iphone" class="img-fluid" alt="Iphone 15 promax">
-          <h6>IPhone 15 ProMax  Dual SIM 256GB <br>15MegaPixel Rear Camera</h6>
-           <p id="items-features">. Front camera 15Pixel <br>. Back Camera 48 Pixel</p>
-           <div id="prices">
-            <p >save 50€</p>
-           </div>
-          <div>
-            <p id="pricess">1500€</p>
+<?php include 'header.php' ?>
+    <!-- start the code of the body -->
+   <div class="row" >
+    <div  class="col-8  row" id="body1"   >
+          <div class="row col-12 ">
+            <div class="col-4" ></div>
+            <div class="col-4 justify-content-center" id="contenthead">
+                <p id="hyy">History-Of-Lapland</p>
+            </div>
+            <div class="col-4"></div>
           </div>
-           
+        <p id="body">
+            The area of Lapland was split between two counties of the Swedish Realm from 1634 to 1809. The northern and western areas were part of Västerbotten County, while the southern areas (so-called Peräpohjola) were part of Ostrobothnia County (after 1755 Oulu County). The northern and western areas were transferred in 1809 to Oulu County, which became Oulu Province. Under the royalist constitution of Finland during the first half of 1918, Lapland was to become a Grand Principality and part of the inheritance of the proposed king of Finland. Lapland Province was separated from Oulu Province in 1938.
 
-          </div>
-        <!-- first column flash sales end  -->
+            During the Interim Peace and beginning of the Continuation War the government of Finland allowed the Nazi German Army to station itself in Lapland as a part of Operation Barbarossa. After Finland made a separate peace with the Soviet Union in 1944, the Soviet Union demanded that Finland expel the German army from its soil. The result was the Lapland War, during which almost the whole civilian population of Lapland was evacuated. The Germans used scorched earth tactics in Lapland before they withdrew to Norway. 40 to 47 per cent of the dwellings in Lapland and 417 kilometres (259 mi) of railroads were destroyed, 9,500 kilometres (5,900 mi) of roadways were mined, destroyed or were unusable, and 675 bridges and 3,700 kilometres (2,300 mi) of telephone lines were also destroyed. Ninety per cent of Rovaniemi, the capital of Lapland, was burned to the ground, with only a few pre-war buildings surviving the destruction.
 
-            <!-- second  column of the row start from here  -->
-        <div class="col-12 col-sm-6 col-md-6 col-lg-4 text-center second-body-second-column">
-           <h1 id="heading-of-second-row">Most popular products</h1>
-           <hr>
-          <div class="row">
-            <p class="col-6">Telephones </p>
-            <p class="col-3"></p>
-            <p class="col-3 click">><p>
-          </div>
-           <hr>
-           <div class="row">
-            <p class="col-6">Computers </p>
-            <p class="col-3"></p>
-            <p class="col-3 click">><p>
-            </div>
-           <hr>
-           <div class="row">
-            <p class="col-6">Washing Macchine </p>
-            <p class="col-3"></p>
-            <p class="col-3 click">><p>
-            </div>
-           <hr>
-           <div class="row">
-            <p class="col-6">Smart Watch </p>
-            <p class="col-3"></p>
-            <p class="col-3 click">><p>
-            </div>
-           <hr>
-           <div class="row">
-            <p class="col-6">Vaccumm Cleaner</p>
-            <p class="col-3"></p>
-            <p class="col-3 click">><p>
-            </div>
-           <hr>
-           <div class="row">
-            <p class="col-6">Digital Camera</p>
-            <p class="col-3"></p>
-            <p class="col-3 click"><a href="img/iphone.jpeg">></a><p>
-            </div>
-           <hr>
-        </div>
-        <!-- end of the second column of secornd row  -->
+            After the Second World War, Petsamo municipality and part of Salla municipality were ceded to the Soviet Union. The decades following the war were a period of rebuilding, industrialisation and fast economic growth. Large hydroelectric plants and mines were established and cities, roads and bridges were rebuilt after the destruction of the war. In the late 20th century the economy of Lapland started to decline, mines and factories became unprofitable and the population started to decline rapidly across most of the region.
 
-        <!-- start the third column of  second row  -->
-        <div class="col-12 col-sm-12 col-md-12 col-lg-4 text-center">
-           <h1 id="heading-of-second-row">Selection From The Products</h1>
-           <hr>
-           <!-- headphone and its description  -->
+            The provinces of Finland were abolished on 1 January 2010, but Lapland was reorganised as one of the new regions that replaced them.[29]
 
-           <div class="row">
-                <div id="ovalshape-image" class="col-4 "><img src="img/studioproheadphone.jpg" alt=" image of studio pro headphones" class="img-fluid" ></div>
-                <div id="item-description"  class="col-8"> 
-                  <p> <h3 >JBL Head Phone version 3.5</h3> </p>
-                  <div  class="row">
-                    <p class="col-4"></p>
-                    <p class="col-4" id="price">105€</p>
-                    <p class="col-4"></p>
-                  </div>
-                </div>
-           </div>
-             
-           <!-- washing machine code  -->
-           <div class="row">
-             <div id="ovalshape-image" class="col-4 "><img src="img/washingMachine.png" alt=" image of studio pro washingmachine" class="img-fluid" ></div>
-             <div id="item-description"  class="col-8"> 
-               <p> <h3 >Washing Machine</h3> </p>
-               <div  class="row">
-                <p class="col-4"></p>
-                <p class="col-4" id="price">€700</p>
-                <p class="col-4"></p>
-               </div>
-             </div>
-           </div>
-
-           <!-- Samsung galaxy  -->
-           <div class="row">
-            <div id="ovalshape-image" class="col-4 "><img src="img/samsung.jpg" alt=" image of studio pro headphones" class="img-fluid" ></div>
-            <div id="item-description"  class="col-8"> 
-              <p> <h3 >Samsung Galaxy S24Ultra</h3> </p>
-              <div  class="row">
-               <p class="col-4"></p>
-               <p class="col-4" id="price">€1399</p>
-               <p class="col-4"></p>
-              </div>
-            </div>
-          </div>
-
-          <!-- macbook pro  -->
-          <div class="row">
-            <div id="ovalshape-image" class="col-4 "><img src="img/macbookpro13M18GB256GBSSD.jpg" alt=" image of macbookpro" class="img-fluid" ></div>
-            <div id="item-description"  class="col-8"> 
-              <p> <h3 >macbook pro 13</h3> </p>
-              <div  class="row">
-               <p class="col-4"></p>
-               <p class="col-4" id="price">€1600</p>
-               <p class="col-4"></p>
-              </div>
-            </div>
-          </div>
-
-        <!-- third  end of third column of the second  row -->
-      
-      </div>
-    <!-- seond row of the body end  -->
-    <hr>
-
-
-    <!-- third row of the body start where is picture of phone will appear  -->
-    <div class="row">
-       <div class="col-lg-6 col-12 img-fluid" id="third-row-img"><img src="img/iphone2.png" alt="this is the picture of the iagepnone on landing p"></div>
-       <div class="col-lg-6 d-none d-sm-none d-md-none d-lg-flex img-fluid"><img src="img/iphone3.png" alt="this is the picture of the iagepnone on landing p"></div>
+        </p>
+        
     </div>
-    <!-- this is the end of the third row  -->
-    <div class="text-center" id="notice-products">
-      <h1>Did you notice that products?</h1>
+    <div class="col-4 container ">
+        <img src="img/lapland.jpg" class="img-fluid" alt="this is a beautiful picture of the lapland">
     </div>
-    <div id="ale">
-      <img src="img/ale.png" class="img-fluid" alt="this is the ale ale picture">
-    </div>
-    <!-- forth row start from here  -->
-    
-    <!-- forth row first column  -->
-   
-    <div class="row justify-content-center align-items-center " id="moving-center">
-       <!-- items1 -->
-      <div class="col-12 col-md-6 col-lg-3 justify-content-center align-content-center">
-       <img src="img/iphone15pro.png" id="iphone" class="img-fluid" alt="Iphone 15 promax">
-          <h6>IPhone 15 ProMax  Dual SIM 256GB <br>15MegaPixel Rear Camera</h6>
-           <p id="items-features">. Front camera 15Pixel <br>. Back Camera 48 Pixel</p>
-           <div id="tprices">
-            <p >save 50€</p>
-           </div>
-          <div>
-            <p id="tpricess">1500€</p>
-          </div>
-      </div>
-      <!-- end first items  -->
-
-      <!-- items 2 -->
-       <div class="col-12 col-md-6 col-lg-3 justify-content-center align-content-center">
-         <img src="img/APPLE IPHONE 14 128 GT STAR WHITE.png" id="iphone" class="img-fluid" alt="Iphone 14">
-           <h6>IPhone 14 128GT STAR WHITE <br>15MegaPixel Rear Camera</h6>
-            <p id="items-features">. Front camera 15Pixel <br>. Back Camera 48 Pixel</p>
-            <div id="tprices">
-             <p >save 50€</p>
-            </div>
-           <div>
-             <p id="tpricess">1050€</p>
-           </div>
-       </div>
-      <!-- items2 end  -->
-
-      <!-- items3 start  -->
-        <div class="col-12 col-md-6 col-lg-3 justify-content-center align-content-center">
-         <img src="img/Smart-watches.png" id="iphone" class="img-fluid" alt="Smart watch">
-           <h6>APPLE WATCH ULTRA 2 GPS <br>CELLULAR, 49MM TITANIUM CASE, BLUE ALPINE STRAP - MEDIUM</h6>
-            <p id="items-features">GPS + Cellular <br>Environmentally responsible production<br>
-              M - fits 145-190 mm wrists</p>
-            <div id="tprices">
-             <p >save 50€</p>
-            </div>
-           <div>
-             <p id="tpricess">750€</p>
-           </div>
-       </div>
-
-       <!-- items3 end -->
-    </div>
-    
-    <!-- forth row end here  -->
-  </div>
-  <!-- fifth row of the vody start  -->
-  <div class="row justify-content-center align-items-center " id="moving-center">
-    <!-- items1 -->
-   <div class="col-12 col-md-6 col-lg-3 justify-content-center align-content-center">
-    <img src="img/tv.png" id="iphone" class="img-fluid" alt="Smart tv">
-       <h6>Samsung Smart <br> 32 inch Q-led Tv</h6>
-        <p id="items-features">32" 120 Hz FHD+ HDR QLED screen</p>
-        <p>Quantum Processor 4K</p>
-        <p>4K@120Hz, FreeSync, VRR, ALLM, HGiG</p>
-        <p></p>
-        <div id="tprices">
-         <p >save 50€</p>
-        </div>
-       <div>
-         <p id="tpricess">550€</p>
-       </div>
    </div>
-   <!-- end first items  -->
-
-   <!-- items 2 -->
-    <div class="col-12 col-md-6 col-lg-3 justify-content-center align-content-center">
-      <img src="img/HP Laptop 14-em0008no 14 laptop, Win 11 .png" id="iphone" class="img-fluid" alt="Hp laptops">
-        <h6>IPhone 14 128GT STAR WHITE <br>15MegaPixel Rear Camera</h6>
-         <p id="items-features">AMD Ryzen™ 7 5825U processor<br>15.6" FHD SVA screen</p>
-         <div id="tprices">
-          <p >save 50€</p>
-         </div>
-        <div>
-          <p id="tpricess">600€</p>
-        </div>
-    </div>
-   <!-- items2 end  -->
-
-   <!-- items3 start  -->
-     <div class="col-12 col-md-6 col-lg-3 justify-content-center align-content-center">
-      <img src="img/jbl.png" id="iphone" class="img-fluid" alt="JBL Speaker">
-        <h6>Portable party speaker with light effects <br>and wireless microphone</h6>
-         <p id="items-features">JBL Pro Sound with 100 W power<br>Battery life: 6 hours<br>Water resistant (IPX4)
-           </p>
-         <div id="tprices">
-          <p >save 50€</p>
-         </div>
-        <div>
-          <p id="tpricess">250€</p>
-        </div>
-    </div>
-
-    <!-- items3 end -->
- </div>
- 
-  <!-- fifth row of the body end -->
-<!-- end of the body -->
-
-<?php include ("footer.php") ?>
+   <!-- End of the body  -->
+<?php include 'footer.php' ?>
