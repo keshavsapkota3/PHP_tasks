@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title> <?php echo $title; ?> </title>
+</head>
+<body class="row">
+    <div id="body2">
+    <nav class="row bg-primary align-items-center col-12 ">
+        <div class="col-1"></div>
+        <div class="col-4" id="logo" ><a href="index.php">KeshavSapkota </a></div>
+        <div class="col-1"></div>
+        <div class="col-6 d-flex justify-content-around"  > 
+            <div><a href="ex1.php">Exercise 1</a></div>
+            <div><a href="ex2.php">Exercise 2</a></div>
+            <div><a href="ex3.php">Exercise 3</a></div>
+            <div><a href="ex3.php">Exercise 4</a></div>
+            <div><a href="ex3.php">Exercise 5</a></div>
+        </div>
+    </nav>
+    <!-- end of the navigation -->
+     
+    <!-- creating the form  -->
+    <form action="ex3process.phps">
+        <div class="mb-3">
+          <label for="name " class="form-label">First Name :</label>
+          <input type="text" class="form-control" id="firstName" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="Last name" class="form-label">Last Name :</label>
+          <input type="text" class="form-control" id="LastName">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+   <h3> creating the table and applied bootstrap style in it </h3>
+   <table class="table">
+    <thead>
+        <tr>
+            <th scope="col">S.N</th>
+            <th scope="col">First Name</th>
+            <th scope="col">last Name </th>
+            <th scope="col">job</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Keshav</td>
+            <td>Sapkota</td>
+            <td>Driver</td>
+        </tr>
+
+        <tr>
+            <th scope="row">2</th>
+            <td>Saara</td>
+            <td>hamalainen</td>
+            <td>waiter</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Pekka</td>
+            <td>turvonen</td>
+            <td>Grass trimmer</td>
+        </tr>
+    </tbody>
+
+   </table>
+     <h3> Working with string!</h3>
+     <form class="row">
+        <label for="String1" > First String</label>
+        <input type="text" id="firstString" > <br>
+        <label for="string2" class="col-3">Second String</label>
+        <input type="text" id="SecondStringS">
+     </form>
+     <h3>working with Number</h3>
+<form class="row" >
+    <label for="number1">sum of the 298, 234, 46</label>
+</form>
+
+
+    <div id="gapping"></div>
+    <!-- start footer  -->
+    <div class="row">
+     <div class="col-4 foot " >
+        <div  class="" id="footer">
+         <p>Contact Information</p>
+         <ul>
+             <li>Phone: <a href="tel:+123424y43">73483478345783</a></li>
+             <li>Email: <a href="mailto:esjklsdf@yahoo.com">fjkysjfdkjakjf@yahoo.com</a></li>
+         </ul>
+        </div>
+     </div>
+     <div class="col-4 foot" >
+         <div class=" " id="footer">
+          <p>Services</p>
+          <ul>
+             <li id="font">Clenaing</li>
+             <li>Laundry</li>
+             <li>Dirt Management</li>
+             <li>Dumping</li>
+             <li>Staire Cleaning</li>
+          </ul>
+         </div>
+     </div>
+     <div  class="col-4 foot" id="foot" >
+         <div  class=" " id="footer">
+             <p>Social media</p>
+             <ul class="footer1">
+                 <li><a href="https://www.facebook.com/"><img src="img/facebook.svg" alt="facebook"> Facebook</a></li>
+                 <li><a href="https://www.instagram.com/"><img src="img/instagram.svg" alt="instagram"> Instagram</a></li>
+                 <li><a href="https://www.github.com/"><img src="img/github.svg" alt="Github"> Github</a></li>
+             </ul>
+ 
+         </div>
+ 
+     </div>
+    </div>
+    </div>
+ </body>
+ </html>  
