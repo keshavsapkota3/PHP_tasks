@@ -15,7 +15,14 @@ if($fnumber>=18){
 else{
     echo "<br> ".$fname. " "." is not eligible for the vote";
 }
-
+$month = date("F");
+switch ($month) {
+    case "August":
+        echo "It's August, so it's still holiday.";
+        break;
+    default:
+        echo "Not August, this is $month, so I don't have any holidays.";
+}
 $n = $_POST["number"];
     echo "<p>Numbers from 1 to $n:</p>";
     $i = 1;
