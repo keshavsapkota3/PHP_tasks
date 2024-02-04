@@ -1,4 +1,6 @@
-<?php include 'header.php' ?>
+<?php 
+$title="Home page";
+include 'header.php'; ?>
     <!-- start the code of the body -->
    <div class="row" >
     <div  class="col-8  row" id="body1"   >

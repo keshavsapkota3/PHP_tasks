@@ -7,7 +7,7 @@
 
     $firstName=$_POST["firstName"];
     $lastName=$_POST ["lastName"];
-     echo"Hello  ".$firstName."  ".$lastName;
+     echo" <h3>Hello  ".$firstName."  ".$lastName." you are welcome to my site. </h3>";
 
  
 $String1="Hello";
@@ -21,7 +21,7 @@ $secondnumber=234;
 $thirdnumber=46;
 
 $sum=$firstnumber+$secondnumber+$thirdnumber;
-echo"<br>   the sum of the there number 298, 234, 46 is ".$sum;
+echo"<br>   the sum of the three number 298, 234, 46 is ".$sum;
 $user_agent = $_SERVER['HTTP_USER_AGENT'];
 echo'<br>'.$user_agent;
 $file_path = $_SERVER['DOCUMENT_ROOT'] . $_SERVER['PHP_SELF'];

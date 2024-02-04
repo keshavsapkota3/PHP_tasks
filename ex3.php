@@ -2,7 +2,7 @@
   $title="Variable, String and Operators";
   include("header.php");
   ?>
-
+  <h4>To See all the exercise enter name and submit</h4>
 <form action="ex3process.php" method="POST">
         <div class="mb-3">
           <label for="name " class="form-label">First Name :</label>
@@ -60,7 +60,5 @@
 <form class="row" >
     <label for="number1">sum of the 298, 234, 46</label>
 </form>
-
-
 
 <?php  include("footer.php"); ?>
