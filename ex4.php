@@ -19,6 +19,10 @@ include("header.php");
           <label for="number" class="form-label">Enter number</label>
           <input type="text" class="form-control" name="number" >
         </div>
+        <div class="mb-3">
+          <label for="number" class="form-label">Enter number for table</label>
+          <input type="text" class="form-control" name="number1" >
+        </div>
      <button type="submit" class="btn btn-primary">Submit</button>
 
 </form>

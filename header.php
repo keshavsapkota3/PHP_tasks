@@ -19,7 +19,7 @@
             <div><a href="ex2.php">Exercise 2</a></div>
             <div><a href="ex3.php">Exercise 3</a></div>
             <div><a href="ex4.php">Exercise 4</a></div>
-            <div><a href="ex5.php"> Exercise 5</a></div>
+            <div><a href="https://github.com/keshavsapkota3/Group_26-webprograming/blob/gh-pages/phpEx5.md"> Exercise 5</a></div>
             <div><a href=""> Exercise 6</a></div>
             <div><a href=""> Exercise 7</a></div>
 

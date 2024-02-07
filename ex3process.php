@@ -1,3 +1,7 @@
+
+<body>
+  
+
 <?php
   $title="Variable, String and Operators";
   include("header.php");
@@ -24,12 +28,22 @@ $sum=$firstnumber+$secondnumber+$thirdnumber;
 echo"<br>   the sum of the three number 298, 234, 46 is ".$sum;
 $user_agent = $_SERVER['HTTP_USER_AGENT'];
 echo'<br>'.$user_agent;
-$file_path = $_SERVER['DOCUMENT_ROOT'] . $_SERVER['PHP_SELF'];
-$file_name = basename($file_path);
-$file_modification_time = filemtime($file_path);
 
-echo '<br>Last modified: ' . date('F d, Y H:i:s', $file_modification_time) . ' (UTC)';
 ?>
 
 
-<?php  include("footer.php"); ?>
+<?php
+include("footer.php");
+?>
+<div class="container">
+    <div class="row">
+      <div class="col-4"></div>
+        <div class="col-8 text-right mt-3">
+            <?php
+            $file_path = $_SERVER['DOCUMENT_ROOT'] . $_SERVER['PHP_SELF'];
+            $file_modification_time = filemtime($file_path);
+            echo '<p>Last modified: ' . date('F d, Y H:i:s', $file_modification_time) . ' (UTC)</p>';
+            ?>
+        </div>
+    </div>
+</div>
